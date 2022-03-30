@@ -1,0 +1,33 @@
+@media(max-widht: 991px){
+    header{
+        padding: 20px 50px;
+    }
+
+    .conteudo{
+        padding: 150px 50px 0;
+        flex-direction: column;
+    }
+
+    .conteudo::before{
+        display: none;
+    }
+
+    .conteudo .caixa-de-texto{
+        max-width: 100%;
+    }
+
+    .conteudo .caixa-de-texto h2{
+        font-size: 2.5em;
+    }
+
+    .conteudo .video-bx{
+        width: 100%;
+        height: 200px;
+        margin: 40px 0 100px;
+    }
+
+    .conteudo .redes-socias{
+        left: 50px;
+    }
+    
+}
